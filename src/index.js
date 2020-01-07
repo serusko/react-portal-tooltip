@@ -1,7 +1,8 @@
-import ToolTip from "./ToolTip"
-import StatefulToolTip from "./StatefulToolTip"
+import ToolTip from "./ToolTip";
+import StateFullToolTip from "./StateFullToolTip";
 
-export default ToolTip
+export default ToolTip;
 export {
-  StatefulToolTip,
-}
+  StateFullToolTip as StatefulToolTip, // keep typo backward compatibles
+  StateFullToolTip
+};
